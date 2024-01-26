@@ -56,7 +56,7 @@ dropdown_from = ttk.Combobox(main_frame, values=all_currencies, state="readonly"
 dropdown_from.current(0)
 dropdown_from.grid(column=1, row=1, padx=5, pady=5)
 
-swap_icon = Image.open("swapicon.png")  # Replace with your swap icon file
+swap_icon = Image.open("swapicon.png")  # Replace with swap icon file
 swap_icon = swap_icon.resize((20, 20), Image.BICUBIC)
 swap_img = ImageTk.PhotoImage(swap_icon)
 
